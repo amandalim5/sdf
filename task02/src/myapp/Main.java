@@ -48,22 +48,23 @@ public class Main {
       switch(inputs.get(1)){
         case "+":
           $last = add(a, b);
-          System.out.println($last);
           break;
         case "-":
           $last = sub(a, b);
-          System.out.println($last);
           break;
         case "*":
-          $last = mul(a, b);
-          System.out.println($last);
+          $last = mul(a, b);   
           break;
         case "/":
           $last = div(a, b);
-          System.out.println($last);
           break;
       }
 
+      if($last % 1 == 0){
+        System.out.println((int)$last);
+      } else{
+        System.out.println($last);
+      }
 
 
       inputs.clear();
