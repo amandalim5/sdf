@@ -21,9 +21,9 @@ public class Main {
           // System.out.println("new" + s);
         }
       }
-      for(String s: inputs){
-        // System.out.println(s);
-      }
+      // for(String s: inputs){
+      //   // System.out.println(s);
+      // }
 
 
 
@@ -72,6 +72,7 @@ public class Main {
     }
     System.out.println("Bye bye");
     // System.out.println(sc.nextLine());
+    sc.close();
   }
 
   public static double add(double a, double b){
